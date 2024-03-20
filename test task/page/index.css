@@ -1,0 +1,42 @@
+.col {
+    border: 1px solid black;
+}
+
+.bg-red {
+    background-color: #a32829;
+}
+
+.bg-orange {
+    background-color: #E67E22;
+}
+
+.bg-yellow {
+    background-color: #5499C7;
+}
+
+.col-btn {
+    padding: 0;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+}
+
+@media only screen and (max-width: 575px) {
+    /* Блоки должны быть 100% ширины и располагаться вертикально */
+    .col {
+        width: 100%;
+    }
+    .row {
+        flex-direction: column;
+    }
+}
