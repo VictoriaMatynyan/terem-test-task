@@ -1,0 +1,58 @@
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.text-center {
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-group {
+    gap: 20px;
+}
+
+.dropdowns-container {
+    display: flex;
+    gap: 5px;
+}
+
+.btn.btn-secondary {
+    width: 160px;
+    background-color: #52BE80;
+    border-color: #52BE80;
+    --bs-btn-bg: #229954;
+    --bs-btn-border-color: #52BE80;
+    --bs-btn-hover-bg:#229954;
+    --bs-btn-active-bg: #229954;
+    --bs-btn-active-border-color: #52BE80;
+}
+
+.dropdowns-container .dropdown {
+    width: 90%;
+}
+
+.col-12 {
+    width: fit-content;
+    display: flex;
+    align-items: end;
+}
+
+.json {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.json__header {
+    text-align: center;
+}

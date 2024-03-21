@@ -1,5 +1,16 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
 .col {
     border: 1px solid black;
+    min-height: 36px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bg-red {
@@ -10,7 +21,7 @@
     background-color: #E67E22;
 }
 
-.bg-yellow {
+.bg-blue {
     background-color: #5499C7;
 }
 
@@ -29,6 +40,18 @@
     -moz-border-radius: 0%;
     -ms-border-radius: 0%;
     -o-border-radius: 0%;
+}
+
+.modal-img {
+    width: 300px;
+    display: flex;
+    align-self: center;
+}
+
+.btn-close {
+    display: flex;
+    align-self: end;
+    margin: 10px;
 }
 
 @media only screen and (max-width: 575px) {
