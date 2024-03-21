@@ -9,7 +9,8 @@ $(document).ready(function() {
     
     // задание 1 - выполняем функцию при нажатии на кнопку
     $('#btn-toggle').click(function() {
-        $('.display-1').slideToggle();
+        // $('#header-container').slideToggle(); // происходит плавно, но с задержкой
+        $('#header-container').toggle();
     });
 
     // задание 2 - меняем блоки во 2-ом ряду местами
@@ -23,7 +24,4 @@ $(document).ready(function() {
             $('.bg-orange').insertAfter($('.bg-red'));
         }
     });
-
-    
-    // $(window).on(function)
 });
