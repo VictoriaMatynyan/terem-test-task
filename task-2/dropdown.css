@@ -17,6 +17,24 @@
     gap: 15px;
 }
 
+.dropdown-label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dropdown-select {
+    width: 160px;
+    height: fit-content;
+    padding: 6px 12px;
+    outline: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
 .input-group {
     gap: 20px;
     min-height: 95px;
