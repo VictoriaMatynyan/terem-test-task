@@ -17,6 +17,48 @@
     gap: 15px;
 }
 
+.form-input {
+    width: 300px;
+    height: fit-content;
+    padding: 6px 12px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.form__input-label {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__submit-btn {
+    display: flex;
+    align-items: center;
+    align-self: end;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background-color: var(--bs-blue);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+
 .dropdown-label {
     display: flex;
     flex-direction: column;
@@ -35,14 +77,9 @@
     -o-border-radius: 6px;
 }
 
-.input-group {
-    gap: 20px;
-    min-height: 95px;
-}
-
 .dropdowns-container {
     display: flex;
-    gap: 5px;
+    gap: 10px;
 }
 
 .btn.btn-secondary {
@@ -64,10 +101,6 @@
     width: fit-content;
     display: flex;
     align-items: center;
-}
-
-.input-group .btn {
-    margin-left: 117px;
 }
 
 .json {

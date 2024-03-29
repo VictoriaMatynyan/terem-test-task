@@ -13,70 +13,66 @@
 <body>
     <div class="main">
         <form class="form row g-3 needs-validation" novalidate>
-            <h2 class="text-center">Форма с выпадающими списками</h2>
-            <div class="input-group">
-            <div class="col-md-4">
-                <label for="name" class="form-label">Имя</label>
-                <input type="text" class="form-control" id="name" value="">
-              </div>
-              <div class="col-md-4">
-                <label for="surname" class="form-label">Фамилия</label>
-                <input type="text" class="form-control" id="surname" value="">
-              </div>
-              <div class="col-12">
-                <button class="btn btn-primary" type="submit">Отправить</button>
-            </div>
+            <h2 class="text-center">Форма с выпадающими списками и полями ввода</h2>
+            <div class="form__input-container">
+                <label for="name" class="form__input-label">Имя
+                  <input type="text" class="form-input" id="name" name="name">
+                </label>
+                <label for="surname" class="form__input-label">Фамилия
+                <input type="text" class="form-input" id="surname" name="surname">
+              </label>
+              <button class="form__submit-btn" type="submit">Отправить</button>
             </div>
             <div class="dropdowns-container">
               <label class="dropdown-label" for="dropdown1">
-                <select class="dropdown-select" id="dropdown" name="dropdown1">
-                  <option value="option1">1</option>
-                  <option value="option2">2</option>
-                  <option value="option3">3</option>
-                  <option value="option3">4</option>
-                  <option value="option3">5</option>
+                <select class="dropdown-select" id="dropdown1" name="dropdown1">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
                 </select>
               </label>
               <label class="dropdown-label" for="dropdown2">
-                <select class="dropdown-select" id="dropdown" name="dropdown2">
-                  <option value="option1">1</option>
-                  <option value="option2">2</option>
-                  <option value="option3">3</option>
-                  <option value="option3">4</option>
-                  <option value="option3">5</option>
+                <select class="dropdown-select" id="dropdown2" name="dropdown2">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
                 </select>
               </label>
               <label class="dropdown-label" for="dropdown3">
-                <select class="dropdown-select" id="dropdown" name="dropdown3">
-                  <option value="option1">1</option>
-                  <option value="option2">2</option>
-                  <option value="option3">3</option>
-                  <option value="option3">4</option>
-                  <option value="option3">5</option>
+                <select class="dropdown-select" id="dropdown3" name="dropdown3">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
                 </select>
               </label>
               <label class="dropdown-label" for="dropdown4">
-                <select class="dropdown-select" id="dropdown" name="dropdown4">
-                  <option value="option1">1</option>
-                  <option value="option2">2</option>
-                  <option value="option3">3</option>
-                  <option value="option3">4</option>
-                  <option value="option3">5</option>
+                <select class="dropdown-select" id="dropdown4" name="dropdown4">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
                 </select>
               </label>
               <label class="dropdown-label" for="dropdown5">
-                <select class="dropdown-select" id="dropdown" name="dropdown5">
-                  <option value="option1">1</option>
-                  <option value="option2">2</option>
-                  <option value="option3">3</option>
-                  <option value="option3">4</option>
-                  <option value="option3">5</option>
+                <select class="dropdown-select" id="dropdown5" name="dropdown5">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
                 </select>
               </label>
             </div>
         </form>
         <div class="json">
-            <h2 class="json__header">Здесь будут JSON данные</h2>
+            <h2 class="json__header">JSON данные</h2>
             <span class="json__data" id="jsonOutput"></span>
         </div>
       </div>
