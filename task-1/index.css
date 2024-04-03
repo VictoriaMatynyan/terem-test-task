@@ -4,6 +4,10 @@
     margin-top: 50px;
 }
 
+.col.header-container_closed {
+    display: none;
+}
+
 .col {
     border: 1px solid black;
     min-height: 36px;
@@ -14,12 +18,11 @@
 }
 
 .first {
-    order: 1;
+    order: -1;
 }
 
 .bg-red {
     background-color: #a32829;
-    order: 1;
 }
 
 .bg-orange {
@@ -28,7 +31,6 @@
 
 .bg-blue {
     background-color: #5499C7;
-    order: 3;
 }
 
 .col-btn {
@@ -46,6 +48,14 @@
     -moz-border-radius: 0%;
     -ms-border-radius: 0%;
     -o-border-radius: 0%;
+}
+
+.modal {
+    display: none;
+}
+
+.modal_open {
+    display: block;
 }
 
 .modal-content {
